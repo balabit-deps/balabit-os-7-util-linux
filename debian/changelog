@@ -1,3 +1,13 @@
+util-linux (2.31.1-0.4ubuntu3.3) bionic; urgency=medium
+
+  * debian/patches/support_alternate_partition_sep.patch: support alternate
+    partition separators. Common cases of no separator, using "p" only, and
+    "-part" (the only previously supported), are covered now, which should
+    let fdisk show partitions in a way closer to reality on most systems.
+    Patch from Kyle Mahlkuch, with changes by Karel Zak. (LP: #1784347)
+
+ -- Mathieu Trudel-Lapierre <cyphermox@ubuntu.com>  Mon, 15 Oct 2018 16:29:48 -0400
+
 util-linux (2.31.1-0.4ubuntu3.2) bionic; urgency=medium
 
   * d/patches/do-not-block.patch, d/patches/do-block-a-bit:
