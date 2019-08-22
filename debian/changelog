@@ -1,3 +1,11 @@
+util-linux (2.31.1-0.4ubuntu3.4) bionic; urgency=medium
+
+  * d/p/prevent-fstrim-inside-container.patch:
+    - Prevent fstrim to run inside a container environment.
+    (LP: #1589289)
+
+ -- Eric Desrochers <eric.desrochers@canonical.com>  Thu, 22 Aug 2019 23:47:46 +0000
+
 util-linux (2.31.1-0.4ubuntu3.3) bionic; urgency=medium
 
   * debian/patches/support_alternate_partition_sep.patch: support alternate
