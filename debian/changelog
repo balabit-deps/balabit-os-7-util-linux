@@ -1,3 +1,11 @@
+util-linux (2.31.1-0.4ubuntu3.5) bionic; urgency=medium
+
+  * d/p/libblkid-xfs-log-check-for-reg-xfs-on-more-sectors.patch:
+    fix ambivalent detection of bcache and xfs_external_log
+    due to regular xfs on bcache backing device. (LP: #1858802)
+
+ -- Mauricio Faria de Oliveira <mfo@canonical.com>  Wed, 08 Jan 2020 15:31:23 -0300
+
 util-linux (2.31.1-0.4ubuntu3.4) bionic; urgency=medium
 
   * d/p/prevent-fstrim-inside-container.patch:
