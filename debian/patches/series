@@ -17,3 +17,4 @@ do-block-a-bit.patch
 support_alternate_partition_sep.patch
 prevent-fstrim-inside-container.patch
 libblkid-xfs-log-check-for-reg-xfs-on-more-sectors.patch
+hwclock_fix_audit_status.patch

@@ -1,3 +1,10 @@
+util-linux (2.31.1-0.4ubuntu3.6) bionic; urgency=medium
+
+  * d/p/hwclock_fix_audit_status.patch: reverse hwclock exit status
+    so to match audit_log_user_message(3) semantics. (LP: #1865504)
+
+ -- Joy Latten <joy.latten@canonical.com>  Thu, 05 Mar 2020 11:23:23 -0600
+
 util-linux (2.31.1-0.4ubuntu3.5) bionic; urgency=medium
 
   * d/p/libblkid-xfs-log-check-for-reg-xfs-on-more-sectors.patch:
