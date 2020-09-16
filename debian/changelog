@@ -1,3 +1,12 @@
+util-linux (2.31.1-0.4ubuntu3.7) bionic-security; urgency=medium
+
+  * SECURITY UPDATE: privilege escalation via bash completion umount script
+    - debian/patches/CVE-2018-7738.patch: use findmnt, escape a space in
+      paths in bash-completion/umount.
+    - CVE-2018-7738
+
+ -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Wed, 16 Sep 2020 14:43:15 -0400
+
 util-linux (2.31.1-0.4ubuntu3.6) bionic; urgency=medium
 
   * d/p/hwclock_fix_audit_status.patch: reverse hwclock exit status

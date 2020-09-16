@@ -18,3 +18,4 @@ support_alternate_partition_sep.patch
 prevent-fstrim-inside-container.patch
 libblkid-xfs-log-check-for-reg-xfs-on-more-sectors.patch
 hwclock_fix_audit_status.patch
+CVE-2018-7738.patch
